@@ -8,7 +8,10 @@ int main(){
     p_n2 = &num2;
 
     if (p_n1 > p_n2){
-        printf("E\n");
+        printf("Esse é o maior endereço %p\n",p_n1);
+    }
+    else{
+        printf("Esse é o maior endereço %p\n",p_n2);
     }
     return 0;
 }

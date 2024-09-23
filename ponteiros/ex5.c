@@ -11,7 +11,7 @@ int main() {
     float *ptrReal;
     char *ptrCaractere;
 
-    //Associe as variáveis aos ponteiros (use &)
+    //Associa as variáveis aos ponteiros (use &)
     ptrInteiro = &inteiro;
     ptrReal = &real;
     ptrCaractere = &caractere;
@@ -32,7 +32,7 @@ int main() {
     printf("Inteiro: %d, Endereço: %p\n", inteiro, (void*)ptrInteiro);
     printf("Real: %.2f, Endereço: %p\n", real, (void*)ptrReal);
     printf("Caractere: %c, Endereço: %p\n", caractere, (void*)ptrCaractere);
-    scanf("%[^\n]");
+    //scanf("%[^\n]");
 
     return 0;
 }
