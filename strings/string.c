@@ -9,7 +9,7 @@ int main(){
     scanf("%1000[^\n]s",minha_string);
     printf("String digitada: %s\n", minha_string);
     //Limpa o buffer de memória para próxima leitura de dados
-    fflush(stdin);
+    while (getchar() != '\n');
 
     //gets()
     //fgets(string,tamanho,stdin)
