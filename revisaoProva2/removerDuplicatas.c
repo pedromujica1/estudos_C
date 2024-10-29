@@ -29,13 +29,7 @@ int main(){
     for (int i = 0; i < index_limite; i++)
     {
         printf("%d ",vetor_normal[i]);
-    }
-    
-    
-
-    
-
-    
+    }    
     return 0;
 
 }
